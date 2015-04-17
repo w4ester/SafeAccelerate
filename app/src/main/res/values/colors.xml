@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF2196F3</color>
+    <color name="primary_dark">#FF1976D2</color>
+    <color name="accent">#FF4CAF50</color>
+
+    <color name="background_dark">#FF1A1A2E</color>
+    <color name="overlay_background">#FF0D0D1A</color>
+
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_secondary_light">#80FFFFFF</color>
+
+    <color name="indicator_idle">#FF2196F3</color>
+    <color name="indicator_active">#FFFF5722</color>
+
+    <color name="maps_button">#FF4CAF50</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

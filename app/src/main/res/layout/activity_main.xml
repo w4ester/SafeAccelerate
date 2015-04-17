@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:padding="24dp">
+
+    <!-- App title -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/app_name"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Status indicator circle -->
+    <View
+        android:id="@+id/status_indicator"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/indicator_idle" />
+
+    <!-- Current speed -->
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status_indicator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="0.0 mph"
+        android:textColor="@color/text_primary"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Status text -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_speed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/status_disabled"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp" />
+
+    <!-- Arm toggle -->
+    <ToggleButton
+        android:id="@+id/toggle_arm"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:textOn="@string/toggle_on"
+        android:textOff="@string/toggle_off"
+        android:textSize="18sp"
+        android:textColor="@color/text_primary"
+        android:background="@drawable/bg_toggle" />
+
+</RelativeLayout>

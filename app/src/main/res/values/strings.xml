@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeAccelerate</string>
+    <string name="drive_mode_active">Drive Mode Active</string>
+
+    <!-- Main screen -->
+    <string name="status_disabled">Tap to arm</string>
+    <string name="status_monitoring">Monitoring speed…</string>
+    <string name="status_drive_mode">DRIVE MODE ACTIVE</string>
+    <string name="toggle_on">ARMED</string>
+    <string name="toggle_off">OFF</string>
+
+    <!-- Overlay -->
+    <string name="drive_safe">DRIVE SAFE</string>
+    <string name="overlay_subtitle">Phone locked while driving</string>
+    <string name="open_maps">Open Maps</string>
+    <string name="emergency_unlock">Hold 3 seconds to emergency unlock</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+</resources>
